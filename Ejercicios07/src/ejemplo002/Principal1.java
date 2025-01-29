@@ -37,7 +37,8 @@ public class Principal1 {
                     promedioEstudiante, numeroNotasArribaPromedio));
         }
         CrearArchivoTexto.agregarRegistros(mensajeFinal);
-
+// en la cadena se manda solo dos valores y en elsegundo valor se le envia todos
+//los datos con los q va a trabajar sin usar otro metodo auxiliar
     }
     
     public static String presentarReporte(String nom, String ap, String notas, 
